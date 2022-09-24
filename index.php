@@ -1,13 +1,14 @@
-// Hacemos un arreglo con datos de ejemplo
+<?php
+// Se hace un arreglo con datos de ejemplo
 $data = [
     'title' => 'Untitled-1',
     'created' => '2015-01-01',
     'modified' => '2015-01-01',
     'id' => '1',
     'name' => 'Practica 1',
-    ]
+    ];
 
-$echo "
+echo "
     <!-- Make a Table for th Data -->
         <table class='table table-striped table-bordered table-hover'>
         <thead>
@@ -18,8 +19,7 @@ $echo "
         </thead>
         <tbody>
 ";
-
-// Para cada elemento del arreglo colocamos una fila
+// Se imprime cada elemento del arreglo en una fila
 foreach($data as $key => $value){
     echo "
             <tr>
@@ -32,4 +32,5 @@ echo "
         </tbody>
     </table>
 ";
-?>
+?> 
+
