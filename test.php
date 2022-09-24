@@ -9,11 +9,11 @@
         <!-- Make a form for user data -->
         <form action="../../index.html" method="post">
             <input type="text" name="name" placeholder="Name">
-            <input type="text" name="name" placeholder="Name">
-                    <input type="text" name="surname" placeholder="Phone number">
+            <input type="text" name="surname" placeholder="Surname">
+            <input type="text" name="surname" placeholder="Phone number">
             <input type="submit" value="Send">
         </form>
         <!-- Show the result of the form -->
-        <p>Helleo, <?php echo $_POST['name']; ?>!</p>
+        <p>Hello, <?php echo $_POST['name']; ?>!</p>
     </body>
 </html>
