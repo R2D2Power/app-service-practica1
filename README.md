@@ -69,3 +69,5 @@ git push azure main:master
 ```
 
   > 👀 **Ojo:** Es importante aclarar que Azure asigna una rama master por defecto. 
+
+[Ejemplo de la palicación corriendo en un App Service de Azure](https://app-service-practica1.azurewebsites.net/)
